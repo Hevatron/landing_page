@@ -12,12 +12,22 @@ body {
 
 .header {
     display: flex;
-    margin: 10px;
+    margin: 30px;
 }
 
 .site-intro {
     display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    gap: 30px
+}
+
+.site-text {
+    display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
 
 #links {
@@ -61,6 +71,7 @@ button {
     border: none;
     padding: 10px;
     border-radius: 12px;
+    width: 100px;
 
 }
 
