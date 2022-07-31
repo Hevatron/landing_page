@@ -12,7 +12,9 @@ body {
 
 .header {
     display: flex;
+    align-items: center;
     margin: 30px;
+    height: 30px;
 }
 
 .site-intro {
@@ -46,6 +48,8 @@ h1 {
     font-size: 48px;
     font-weight: extra-bold;
     color: #F9FAF8;
+    padding: 0;
+    margin: 0;
 }
 
 h2 {
