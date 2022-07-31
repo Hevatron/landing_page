@@ -121,15 +121,26 @@ button {
     color: #1F2937;
 }
 
+#author {
+    font-size: 18px;
+    font-weight: bold;
+    color: #1F2937;
+    text-align: right;
+}
+
 .section4 {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 18px;
+    color: #E5E7EB;
     margin: 30px;
 }
 
 .actionbar {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
     background-color: #3882F6;
     width: 800px;
     border-radius: 12px;
@@ -142,4 +153,5 @@ button {
     font-size: 18px;
     color: #E5E7EB;
     text-align: center;
+    padding: 10px;
 }
