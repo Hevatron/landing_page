@@ -84,11 +84,27 @@ button {
     width: auto;
 }
 
+.section2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#sessions {
+    display: flex;
+    gap: 20px;
+}
+
+#sessions li {
+    width: 200px;
+    height: 200px;
+}
+
 .section2 img {
     height: 200px;
-    width: auto;
-    border: 3px;
+    width: 200px;
     border-radius: 12px;
+    margin: 0 10px 0 10px;
 }
 
 .section3 {
