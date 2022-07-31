@@ -6,7 +6,11 @@ body {
 
 .section1 {
     background-color: #1F2937;
+}
 
+.header {
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 h1 {
