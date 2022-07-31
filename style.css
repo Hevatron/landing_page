@@ -67,3 +67,10 @@ button {
     font-weight: lighter;
     color: #1F2937;
 }
+
+.footer {
+    height: 50px;
+    background-color: #1F2937;
+    font-size: 18px;
+    color: #E5E7EB;
+}
