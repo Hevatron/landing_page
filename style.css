@@ -5,12 +5,31 @@ body {
 }
 
 .section1 {
+    display: flex;
+    flex-direction: column;
     background-color: #1F2937;
 }
 
+.header {
+    display: flex;
+    margin: 10px;
+}
+
+.site-intro {
+    display: flex;
+    flex-direction: column;
+}
+
 #links {
+    display: flex;
     font-size: 18px;
     color: #E5E7EB;
+    margin-left: auto;
+    gap: 10px;
+}
+
+ul {
+    list-style: none;
 }
 
 h1 {
